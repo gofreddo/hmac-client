@@ -20,24 +20,24 @@ axios
     console.log(error);
   });
 
-// axios
-//   .get('http://localhost:4000/users')
-//   .then((result) => {
-//     // eslint-disable-next-line no-console
-//     console.log(result.data);
-//   })
-//   .catch((error) => {
-//     // eslint-disable-next-line no-console
-//     console.log(error);
-//   });
+axios
+  .get('http://localhost:4000/users')
+  .then((result) => {
+    // eslint-disable-next-line no-console
+    console.log(result.data);
+  })
+  .catch((error) => {
+    // eslint-disable-next-line no-console
+    console.log(error);
+  });
 
-// axios
-//   .get('http://localhost:4000')
-//   .then((result) => {
-//     // eslint-disable-next-line no-console
-//     console.log(result.data);
-//   })
-//   .catch((error) => {
-//     // eslint-disable-next-line no-console
-//     console.log(error);
-//   });
+axios
+  .get('http://localhost:4000')
+  .then((result) => {
+    // eslint-disable-next-line no-console
+    console.log(result.data);
+  })
+  .catch((error) => {
+    // eslint-disable-next-line no-console
+    console.log(error);
+  });
